@@ -13,7 +13,7 @@ MAXRETRIES=5
 #timeout
 TIMEOUT=5
 
-if [ -x "$CERTBOT_EMAIL"]; then
+if [ -x "$CERTBOT_EMAIL" ]; then
 
   printf "${RED}Missing CERTBOT_EMAIL environment variable.${NC}\n";
   exit 1
